@@ -54,5 +54,7 @@ print(f'{username} is following:')
 for user in all_following:
     following.append(user['login'])
 print(len(following))
-print('The users didnt follow back:')
+print('The users didnt follow me back:')
 print(user_didnt_follow_back(following,followers))
+print('The users I didnt follow back:')
+print(user_didnt_follow_back(followers,following))
