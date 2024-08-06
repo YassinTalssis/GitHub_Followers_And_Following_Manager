@@ -5,7 +5,7 @@ access_token = 'ghphhhhhhhhhhYrU0l'
 
 # Specify the username for which you want to collect followers and following
 username = 'YassinTalssis'
-
+#ty
 # Make API requests to retrieve followers and following
 headers = {
     'Authorization': f'token {access_token}',
@@ -48,7 +48,7 @@ for follower in all_followers:
     followers.append(follower['login'])
 print(len(followers))
 print()
-
+#ty
 # Print following
 print(f'{username} is following:')
 for user in all_following:
