@@ -1,7 +1,7 @@
 import requests
 
 # Set up your access token
-access_token = 'ghphhhhhhhhhhYrU0l'
+access_token = 'your_token_'
 
 # Specify the username for which you want to collect followers and following
 username = 'YassinTalssis'
